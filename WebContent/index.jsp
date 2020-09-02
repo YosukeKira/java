@@ -4,9 +4,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>どこつぶへようこそ</title>
 </head>
 <body>
+<h1>どこつぶへようこそ</h1>
+<form action="/Login" method="post">
+<p>ユーザー名：<input type="text" name="name" size="20" /></p>
+<p>パスワード：<input type="password" name="pass" size="20" /></p>
+<input type="submit" value="ログイン" />
+</form>
 
 </body>
 </html>
